@@ -18,6 +18,7 @@ $result = $conn->query($sql);
 if ($result->num_rows > 0) {
     // El usuario y la contraseña son válidos
     echo "Inicio de sesión exitoso. ¡Bienvenido!";
+    header("location:usuario.html");
 } else {
     // El usuario o la contraseña son incorrectos
     echo "Usuario o contraseña incorrectos. Por favor, intenta nuevamente.";
