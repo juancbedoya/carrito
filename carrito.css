@@ -37,10 +37,29 @@ header{
     padding: 20px 10px 20px 10px;
     border-radius: 10px;
     background: white;
+
+}
+
+.container-cerrar {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.container-cerrar a {
+    color: black;
+}
+
+.container-cerrar svg {
+    width: 30px;
+    height: 30px;
 }
 
 .container-icon{
     position: relative;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
 }
 
 .count-products{
@@ -73,7 +92,6 @@ header{
     z-index: 1;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.20);
     border-radius: 10px;
-    
 }
 
 .cart-product{
@@ -81,9 +99,7 @@ header{
     align-items: center;
     justify-content: space-between;
     padding: 30px;
-
     border-bottom: 1px solid rgba(0, 0, 0, 0.20);
-
 }
 
 .info-cart-product{
